@@ -3,7 +3,6 @@
     <nav class="navbar">
       <HeaderMobileMenu />
       <div class="navbar-group">
-        <HeaderLogo />
         <HeaderNavLinks />
       </div>
       <div class="navbar-group">

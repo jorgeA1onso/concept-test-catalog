@@ -1,6 +1,5 @@
 <template>
   <div id="app">
-    <SeoKit />
     <Header />
     <slot />
     <Newsletter v-if="route.path != '/contact'" />
@@ -21,7 +20,7 @@ useHead({
   ],
   link: [
     { rel: 'canonical', href: process.env.NUXT_PUBLIC_SITE_URL || "https://vue-ecom.vercel.app" },
-    { rel: 'icon', type: 'image/x-icon', href: '/fi.ico' }],
+    { rel: 'icon', type: 'image/x-icon', href: '/logoBIT.png' }],
   htmlAttrs: { lang: 'en-US' },
 })
 </script>

@@ -3,15 +3,11 @@
     <nav class="row justify-content-start" aria-label="breadcrumb">
       <ol class="breadcrumb">
         <li class="breadcrumb-item">
-          <NuxtLink to="/">Home</NuxtLink>
         </li>
         <li class="breadcrumb-item">
-          <NuxtLink to="/products">Products</NuxtLink>
+          <NuxtLink to="/">Products</NuxtLink>
         </li>
-        <li class="breadcrumb-item">
-          <NuxtLink to="/products">{{ details.type }}</NuxtLink>
-        </li>
-        <li class="breadcrumb-item active">{{ details.title }}</li>
+        <li class="breadcrumb-item active">{{ details.name }}</li>
       </ol>
     </nav>
   </div>

@@ -14,18 +14,6 @@
         <div class="dropdown d-block d-lg-none d-xl-none px-4 px-sm-0">
             <button class="btn btn-light dropdown-toggle" role="button" id="MenuLink" data-toggle="dropdown"
                 aria-haspopup="true" aria-expanded="false">CATAGORIES</button>
-            <!-- <div class="dropdown-menu" aria-labelledby="MenuLink">
-                <a class="dropdown-item" v-for="item in grid.types" :key="item.name" @click="sortItems"
-                    :value="item.value">{{
-                        item.name }}</a>
-                <div class="dropdown-divider"></div>
-                <div class="pl-3">
-                    <span v-for="item in grid.colors" :key="item.name" class="circle"
-                        style="`background-color:${item.name}`" @click="sortItems" :value="item.value"></span>
-                </div>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" @click="reSet">Reset</a>
-            </div> -->
         </div>
     </div>
 </template>
